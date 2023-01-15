@@ -13,9 +13,9 @@ categories: jekyll
 
 ## 创建 GitHub Pages
 
-在 Gibhub 在新建一个公开的空代码仓库，仓库名称为 `liaozibo-dev`
+在 GitHub 在新建一个公开的空代码仓库，仓库名称为 `liaozibo-dev`
 
-将代码拉取到本地，并进去代码目录：
+将代码拉取到本地，并进入代码目录：
 ```bash
 git clone https://github.com/liaozibo-dev/liaozibo-dev.git
 ```
