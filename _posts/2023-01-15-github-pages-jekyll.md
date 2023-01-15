@@ -102,7 +102,7 @@ liaozibo-dev.github.io.
 
 等待域名解析生效，可以用 dig 工具测试：
 ```bash
-docker run --rm -it  nicolaka/netshoot
+docker run --rm -it nicolaka/netshoot
 ```
 
 ```bash
@@ -110,11 +110,17 @@ dig liaozibo.com
 dig www.liaozibo.com
 ```
 
+编辑 `_config.yml`：
+```
+baseurl: ""
+url: "https://liaozibo.com"
+```
+
 访问：https://liaozibo.com
 
 ## 看不到新增的博客
 
-将博客推送到 GitHub 没有看到新增博客。
+将博客推送到 GitHub 没有看到新增博客
 
 在 `Actions -> Jobs -> Build -> Build with Jekyll` 中查看 Jekyll 构建日志
 
