@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "使用 GitHub Pages 和 Jekyll 搭建博客"
-date:   2023-01-15 10:24:00 +0000
+date:   2023-01-15 00:00:00 +0000
 categories: jekyll
 ---
 
