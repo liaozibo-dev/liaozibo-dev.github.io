@@ -65,7 +65,7 @@ git push -u origin main
 
 配置 Github Pags：`Settings -> Pages`
  * Souces 选择：Deploy from a branch
- * Branch 选择：main | root 
+ * Branch 选择：main \| root 
 
 在 Actions 可以查看部署流程，等待部署完成，访问：https://liaozibo-dev.github.io/liaozibo-dev
 
@@ -111,6 +111,20 @@ dig www.liaozibo.com
 ```
 
 访问：https://liaozibo.com
+
+## 看不到新增的博客
+
+将博客推送到 GitHub 没有看到新增博客。
+
+在 `Actions -> Jobs -> Build -> Build with Jekyll` 中查看 Jekyll 构建日志
+
+发现构建时因为时间文件跳过了该博客
+
+```
+Skipping: _posts/2023-01-15-github-pages-jekyll.md has a future date
+```
+
+直接将时间调整到过去即可，比如 `2023-01-15 00:00:00`
 
 ## 参考
 
