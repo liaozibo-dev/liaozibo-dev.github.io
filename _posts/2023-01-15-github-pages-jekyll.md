@@ -13,7 +13,7 @@ categories: jekyll
 
 ## 创建 GitHub Pages
 
-在 GitHub 在新建一个公开的空代码仓库，仓库名称为 `liaozibo-dev`
+在 GitHub 在新建一个公开的空代码仓库，仓库名称为 `liaozibo-dev.github.io`
 
 将代码拉取到本地，并进入代码目录：
 ```bash
@@ -50,7 +50,7 @@ bundle update
 
 编辑配置 `_config.yml`：
 ```
-baseurl: "/liaozibo-dev"
+baseurl: ""
 url: "https://liaozibo-dev.github.io"
 ```
 
@@ -67,7 +67,7 @@ git push -u origin main
  * Souces 选择：Deploy from a branch
  * Branch 选择：main \| root 
 
-在 Actions 可以查看部署流程，等待部署完成，访问：https://liaozibo-dev.github.io/liaozibo-dev
+在 Actions 可以查看部署流程，等待部署完成，访问：https://liaozibo-dev.github.io
 
 ## 配置域名
 
