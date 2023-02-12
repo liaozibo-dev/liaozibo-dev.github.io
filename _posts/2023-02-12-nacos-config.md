@@ -36,6 +36,8 @@ Nacos 配置中心特性：
 
 ## Nacos 配置中心
 
+### 启动 Nacos 配置中心服务
+
 Nacos 单机模式 `standalone-start.cmd`：
 ```
 start startup.cmd -m standalone
@@ -59,6 +61,8 @@ start startup.cmd -m standalone
     <artifactId>spring-cloud-starter-bootstrap</artifactId>
 </dependency>
 ```
+
+### 配置文件
 
 配置文件：`/resources/bootstrap.yml`
 ```yaml
@@ -92,6 +96,8 @@ Nacos 配置文件名（dataId）完整格式：`${prefix}-${spring.profiles.act
 * prefix：默认是 spring.application.name
 * profile：没有配置时，则为空并且去掉前面的横杠
 
+### 配置类
+
 配置类：
 ```java
 @Data
@@ -105,6 +111,8 @@ public class CouponProperties {
     private Boolean disableCouponRequest;
 }
 ```
+
+### 配置中心配置
 
 创建配置
 ![img.png](../static/imgs/nacos-config/namespace.png)
