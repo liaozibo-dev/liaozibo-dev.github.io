@@ -115,8 +115,8 @@ public class CouponProperties {
 ### 配置中心配置
 
 创建配置
-![img.png](../static/imgs/nacos-config/namespace.png)
+![img.png](/static/imgs/nacos-config/namespace.png)
 
 > 配置中的 `namespace` 用的是命名空间ID，而不是命名空间名称
 
-![img_1.png](../static/imgs/nacos-config/nacos-config.png)
+![img_1.png](/static/imgs/nacos-config/nacos-config.png)
