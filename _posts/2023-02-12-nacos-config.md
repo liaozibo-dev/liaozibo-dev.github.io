@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Nacos 配置中心"
-date:   2023-02-12 16:06:09 +0000
+date:   2023-02-12 00:00:00 +0000
 categories: microservice
 ---
 # Nacos 配置中心
