@@ -47,7 +47,7 @@ Spring Cloud Gateway:
 ## 微服务网关搭建
 
 依赖：
-```yaml
+```xml
 <!-- 微服务网关 -->
 <dependency>
     <groupId>org.springframework.cloud</groupId>
