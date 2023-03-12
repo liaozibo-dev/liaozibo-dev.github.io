@@ -141,7 +141,7 @@ SADD uv:page1 <uid>
 SCARD uv:page1
 ```
 
-使用 HyperLogLOg 进行不精确统计（标准误算率：0.81%）：
+使用 HyperLogLog 进行不精确统计（标准误算率：0.81%）：
 ```bash
 PFADD uv:page1 <uid...>
 
