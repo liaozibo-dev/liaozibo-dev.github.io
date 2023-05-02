@@ -349,7 +349,7 @@ deployment.apps/metrics-server condition met
 ```
 
 创建自动扩容策略：
-* CPU 阈值；50%
+* CPU 阈值：50%
 * 最小副本数：2
 * 最大副本数：10
 
