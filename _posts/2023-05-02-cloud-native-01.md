@@ -437,7 +437,6 @@ kubectl apply -f hello-world-flask.yml
 #### 编辑 Manifest
 
 ```bash
-
 kubectl edit deployment hello-world-flask
 ```
 
