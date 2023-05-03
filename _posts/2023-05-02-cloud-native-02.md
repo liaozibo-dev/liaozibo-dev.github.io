@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "云原生 01 K8s 极简实战"
+title:  "云原生 02 K8s 极简实战"
 date:   2023-05-03 00:00:00 +0000
 categories: cloud-native
 ---
