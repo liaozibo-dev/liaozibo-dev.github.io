@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "云原生 01"
+title:  "云原生 01 GitOps 入门"
 date:   2023-05-02 00:00:00 +0000
 categories: cloud-native
 ---
